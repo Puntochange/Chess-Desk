@@ -21,6 +21,12 @@ body {
 	letter-spacing: 1px;
 }
 
+@media (max-width: 767px) {
+	.title {
+		font-size: 28px;
+	}
+}
+
 .width,
 .height {
 	color: rgb(95, 95, 95);
@@ -42,6 +48,15 @@ body {
 	background-color: rgb(219, 219, 219);
 	outline: none;
 	color: rgb(71, 71, 71);
+}
+
+@media (max-width: 767px) {
+	.height,
+	.width {
+		width: 180px;
+		height: 30px;
+		font-size: 12px;
+	}
 }
 
 .btn {
@@ -66,11 +81,19 @@ body {
 	box-shadow: 1px 1px 10px rgb(49, 52, 73);
 }
 
+@media (max-width: 767px) {
+	.btn {
+		width: 180px;
+		height: 30px;
+		font-size: 16px;
+	}
+}
+
 .black,
 .white {
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
 }
 
 .black {
@@ -81,3 +104,50 @@ body {
 	background-color: rgb(221, 221, 221);
 }
 
+@media (max-width: 1935px) {
+	.white,
+	.black {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.white,
+	.black {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+@media (max-width: 800px) {
+	.white,
+	.black {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+@media (max-width: 690px) {
+	.white,
+	.black {
+		width: 8px;
+		height: 8px;
+	}
+}
+
+@media (max-width: 375px) {
+	.white,
+	.black {
+		width: 7px;
+		height: 7px;
+	}
+}
+
+@media (max-width: 320px) {
+	.white,
+	.black {
+		width: 6px;
+		height: 6px;
+	}
+}
