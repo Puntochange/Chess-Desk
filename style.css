@@ -1,0 +1,83 @@
+body {
+	font-family: "Montserrat";
+	background-color: rgb(53, 57, 77);
+	text-align: center;
+	font-size: 0px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	font-size: 42px;
+	font-weight: 700;
+	text-shadow: 2px 1px 1px rgb(0, 0, 0);
+	letter-spacing: 1px;
+}
+
+.width,
+.height {
+	color: rgb(95, 95, 95);
+	box-sizing: border-box;
+	width: 280px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 0px 0px 0px 10px;
+	margin: 10px 0px 5px 0px;
+	font-size: 16px;
+	transition: 0.1s;
+}
+
+.width:focus,
+.height:focus {
+	background-color: rgb(219, 219, 219);
+	outline: none;
+	color: rgb(71, 71, 71);
+}
+
+.btn {
+	margin: 15px 0px 50px 0px;
+	width: 280px;
+	height: 40px;
+	background-color: rgb(77, 82, 110);
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: none;
+	font-family: "Montserrat";
+	font-size: 20px;
+	transition: 0.1s;
+	outline: none;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+}
+
+.btn:active {
+	color: rgb(182, 182, 182);
+	background-color: rgb(62, 66, 92);
+	box-shadow: 1px 1px 10px rgb(49, 52, 73);
+}
+
+.black,
+.white {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+}
+
+.black {
+	background-color: rgb(48, 48, 48);
+}
+
+.white {
+	background-color: rgb(221, 221, 221);
+}
+
